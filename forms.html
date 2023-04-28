@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/images.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style/forms.css" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <!-- ? Register Form -->
+    <h1>Register Form</h1>
+
+    <form action="result.html">
+    
+      <!-- * inputlar eşit olmuyor  esit olması icin tablo icerisinde yapılabilir.Css'le ugrasmamak icin. -->
+      <!-- <label for="name">First Name :</label>
+      <input type="text" name="first_name" id="name" /> <br>
+
+      <label for="lastname">Last Name :</label>
+      <input type="text" name="last_name" id="lastname" /> <br> -->
+
+      <!-- * Düzenli olması icin tabloyu kullandık. -->
+      <!-- Table Acıyoruz. -->
+      <table>
+        <!-- ?Baslık icin Yaptık. -->
+        <thead>
+          <tr>
+            <th class="title" colspan="2">Registration Form</th> 
+          </tr>
+        </thead> 
+        <!-- ? Icerik Kismi -->
+        <tbody>
+<!-- First Name -->
+          <tr>
+            <td>
+                <label for="name">First Name :</label></td>
+            <td>
+              <input
+                type="text"
+                name="First_Name"
+                id="name"
+                placeholder="Please Name Input"
+              />
+            </td>
+          </tr>
+          <!-- Last Name -->
+          <tr>
+            <td>
+                <label for="lastName">Last Name :</label></td>
+            <td>
+              <input
+                type="text"
+                name="last_Name"
+                id="lastName"
+                placeholder="Please Name Input"
+              />
+            </td>
+          </tr>
+          <!-- E-mail -->
+          <tr>
+            <td>
+                <label for="email">E-mail :</label></td>
+            <td>
+              <input
+                type="email"
+                name="mail"
+                id="email"
+                placeholder="Please E-mail"
+                required
+              />
+            </td>
+          </tr>
+          <!-- Passwoord -->
+          <tr>
+            <td>
+                <label for="Password"> Password :</label></td>
+            <td>
+              <input
+                type="password"
+                name="password"
+                id="Password"
+                placeholder="Please password"
+                required
+              />
+            </td>
+          </tr>
+        <!-- Date of Birth -->
+          <tr>
+            <td>
+                <label for="date">Date of Birth :</label>
+            </td>
+            <td>
+              <input
+                type="date"
+                name="BirthOf"
+                id="date"
+            />
+            </td>
+          </tr>
+          <!--  Gender -->
+          <tr>
+            <td class="gender">
+                Gender:
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="radio" name="gender" id="man">
+                <label for="man">Male</label>
+                <input type="radio" name="gender" id="woman">
+                <label for="woman">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="phone">Phone Number :</label>
+            </td>
+            <td>
+                <input type="tel" name="phone" id="phone">
+            </td>
+        </tr>
+<!-- Submit and Reset -->
+<tr>
+    <td class="btn" colspan="2">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </td>
+</tr>
+
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

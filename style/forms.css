@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #84b7e9, #17a3f9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+form{
+border: 2px solid white;
+max-width:700px;
+height: 700px;
+border-radius: 10px;
+padding: 30px 5px 10px 50px;
+display: inline-block;
+margin-left: 30%;
+background-color: aliceblue;
+box-shadow: 20px 5px 10px  black, -20px 10px 5px rgb(135, 36, 36);
+margin-top: 20px;
+}
+
+.title{
+font-size: 24px;
+
+}
+table{
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+.gender{
+    font-size: 22px;
+}
+table label{
+    font-size: 22px;
+    font-weight: 500;
+  
+}
+table input{
+padding: 8px 50px;
+margin-right: 10px;
+border: none;
+border-radius: 7px;
+outline: none;
+font-size: 20px;
+margin-top: 10px;
+}
+
+
+.btn{
+    
+    text-align: center;
+}
+.btn input{
+padding: 5px 20px;
+margin-top: 20px;
+background-color: #00416A;
+color: white;
+}
+.btn input:hover{
+    cursor: pointer;
+    background-color: rgb(148, 150, 152);
+    color: #00416A;
+    font-weight: 500;
+}
+
+h1{
+text-align: center;
+text-shadow: 2px 5px 2px rgb(178, 39, 39);
+margin-top: 20px;
+color: white;
+}
+
+ 
